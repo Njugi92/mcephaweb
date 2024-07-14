@@ -1,0 +1,83 @@
+/* Slider.css */
+
+/* Container for the entire slider component */
+.app {
+    background: linear-gradient(to right, #01038d, #feb47b);
+    /* Example gradient background */
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+/* Styling for the header */
+.app h1 {
+    font-size: 2.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/* Carousel container styling */
+.react-multi-carousel-list {
+    width: 100%;
+    height: 100%;
+}
+
+/* Carousel item styling */
+.react-multi-carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    /* Full viewport height */
+}
+
+/* Styling for the products inside the carousel */
+.product {
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 15px;
+    text-align: left;
+    width: 100%;
+    max-width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-10px);
+}
+
+/* Product image styling */
+.product img {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+
+/* Product name styling */
+.product .product-name {
+    font-size: 1.25em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Product price styling */
+.product .product-price {
+    font-size: 1.1em;
+    color: #ff7e5f;
+    margin-bottom: 15px;
+}
+
+/* Product description styling */
+.product .product-description {
+    font-size: 0.9em;
+    color: #777;
+}
